@@ -1,7 +1,7 @@
 const { VertexAI } = require("@google-cloud/vertexai");
 
-const PROJECT_ID = "REPLACE_PROJECT_ID";
-const LOCATION = "europe-west3";
+const PROJECT_ID = process.env.PROJECT_ID;
+const LOCATION = process.env.LOCATION; //"europe-west3";
 //const MODEL_NAME = "gemini-1.5-pro-001";
 const MODEL_NAME = "gemini-1.5-flash-001";
 
